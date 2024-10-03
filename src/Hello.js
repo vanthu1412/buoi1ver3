@@ -14,7 +14,7 @@ function Hello() {
     return (
         <span>
             <button onClick={hiAll}>Hi All</button>
-            <button onClick={() => hiYou('Nguyễn Thị Ái Trân')}>Hi you</button>
+            <button onClick={() => hiYou('Vân Thư')}>Hi you</button>
         </span>
     );
 }
