@@ -4,7 +4,7 @@ import { Header } from './Header';
 
 
 function App() {
-    const studentName = "Nguyễn Thị Ái Trân"; // Thay đổi tên sinh viên tại đây
+    const studentName = "Vân Thư"; // Thay đổi tên sinh viên tại đây
 
     return (
         <div>
