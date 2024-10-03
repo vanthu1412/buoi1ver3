@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Hello, HelloPerson, HelloPeter } from './Hello'; // Sửa ở đây
+import { Header } from './Header';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const studentName = "Nguyễn Thị Ái Trân"; // Thay đổi tên sinh viên tại đây
+
+    return (
+        <div>
+            <Header />
+            <HelloPeter />
+            <HelloPerson name={studentName} />
+        </div>
+    );
 }
 
 export default App;
